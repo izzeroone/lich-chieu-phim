@@ -1,0 +1,5 @@
+.MenuItem {
+  display: block;
+  width: 100%;
+  height: 80px !important;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.88); }

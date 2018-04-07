@@ -1,0 +1,20 @@
+// @import '../../styles/shared';
+
+
+.content-header {
+  margin-bottom: 40px;
+  padding-top: 20px;
+  height: 50px;
+  color: #080808;
+}
+
+.content-header__title {
+  color: #080808;
+  font-size: rem(24px);
+  font-weight: 300;
+  line-height: (42px / 36px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}

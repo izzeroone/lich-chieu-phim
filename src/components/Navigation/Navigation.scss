@@ -1,0 +1,29 @@
+
+
+.Navigation {
+    justify-content: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 37px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 10px;
+  }
+  .Navigation a {
+    font-weight: 500;
+    padding: 7px 10px;
+    margin: 20px 20px;
+    font-size: 20px;
+    color: black;
+    -webkit-transition: color .125s ease;
+    transition: color .125s ease;
+    border-radius: 3px;
+  }
+  .Navigation a:hover {
+    color:  #e50914;
+    cursor: pointer;
+  }
