@@ -9,7 +9,7 @@ class ImageList extends Component{
             {films && films.map(film => {
                 return (
                 <div key = {film.film_id}>
-                    <img class="PosterImg" src={film.poster_landscape} alt=""/>
+                    <img className="PosterImg" src={film.poster_landscape} alt=""/>
                 </div>);
             })
             }

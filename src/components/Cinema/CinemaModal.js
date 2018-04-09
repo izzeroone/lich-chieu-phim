@@ -48,15 +48,15 @@ export default class CinemaModal extends Component {
                         <div style={{ display: '-webkit-box' }}>
                             <img alt={this.state.detail.cinema_name} width="120" src={this.state.detail.cinema_image_poster} />
                             <div style={{marginLeft: 10}}>
-                                <p ><span className='Modal-text'>Địa chỉ:</span> {this.state.detail.cinema_address}</p>
-                                <p><span className='Modal-text'>Điện thoại:</span> <a href={'tel:' + this.state.detail.cinema_phone}>{this.state.detail.cinema_phone}</a></p>
-                                <p><span className='Modal-text'>Email:</span> <a href={'mailto:' + this.state.detail.cinema_email}>{this.state.detail.cinema_email}</a></p>
-                                <p><span className='Modal-text'>Phòng chiếu:</span> {this.state.detail.room_info}</p>
-                                <p><span className='Modal-text'>Giờ mở cửa:</span> {this.state.detail.opening_closing_time}</p>
-                                <p><span className='Modal-text'>Giới thiệu:</span></p> 
-                                <p className='Modal-wraptext' dangerouslySetInnerHTML={{__html: this.state.detail.cinema_description}}></p>
+                                <p ><span className='ModalText'>Địa chỉ:</span> {this.state.detail.cinema_address}</p>
+                                <p><span className='ModalText'>Điện thoại:</span> <a href={'tel:' + this.state.detail.cinema_phone}>{this.state.detail.cinema_phone}</a></p>
+                                <p><span className='ModalText'>Email:</span> <a href={'mailto:' + this.state.detail.cinema_email}>{this.state.detail.cinema_email}</a></p>
+                                <p><span className='ModalText'>Phòng chiếu:</span> {this.state.detail.room_info}</p>
+                                <p><span className='ModalText'>Giờ mở cửa:</span> {this.state.detail.opening_closing_time}</p>
+                                <p><span className='ModalText'>Giới thiệu:</span></p> 
                             </div>
                         </div>
+                        <p className='ModalCinemaDesciption' dangerouslySetInnerHTML={{__html: this.state.detail.cinema_description}}></p>
                         {this.getMap(this.state.detail)}
                     </div>
                 }

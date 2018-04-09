@@ -1,7 +1,7 @@
-.Modal-text {
+.ModalText {
   font-weight: 500; }
 
-.Modal-wraptext {
+.ModalCinemaDesciption {
   white-space: pre-wrap;
-  width: 350;
+  width: 200;
   text-align: justify; }

@@ -1,11 +1,11 @@
 import React from 'react';
 import { compose, withProps } from 'recompose';
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
-
+const GOOGLE_API_KEY = 'AIzaSyASLdtcVljxSMagPvTvRNP1NwrDvUi4WyM';
 const CinemaMap = compose(
   withProps({
     googleMapURL:
-      'https://maps.googleapis.com/maps/api/js?key=AIzaSyBvPAOAi-dx00iYy0j1Xk9lE8WyixmHaJA  &v=3.exp&libraries=geometry,drawing,places',
+          `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_API_KEY}&v=3.exp&libraries=geometry,drawing,places`,
     loadingElement: <div style={{height: '100%'}} />,
     containerElement: <div style={{height: '300px', position: 'relative', marginTop: 10, overflow: 'hidden'}} />,
     mapElement: <div style={{height: '100%'}} />
