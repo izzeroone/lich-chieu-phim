@@ -8,7 +8,7 @@ import './Schedule.css';
 import Film from './Film/Film'
 import Cinema from './Cinema/Cinema'
 import Session from './Session/Session'
-import ContentHeader from './ContendHeader/ContentHeader'
+import ContentHeader from './ContentHeader/ContentHeader'
 import ImageList from './ImageList/ImageList'
 import Navigation from './Navigation/Navigation'
 
